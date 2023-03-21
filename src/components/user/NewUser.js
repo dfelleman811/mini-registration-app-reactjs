@@ -1,4 +1,5 @@
 import UserForm from "./UserForm";
+import styles from './NewUser.module.css';
 
 const NewUser = props => {
 
@@ -7,8 +8,8 @@ const NewUser = props => {
     };
 
 
-    return <div>
-        <UserForm onNewUser={newUserHandler}/>
+    return <div className={styles['new-user']}>
+        <UserForm  onNewUser={newUserHandler} />
     </div>
 };
 

@@ -1,8 +1,10 @@
+import styles from './User.module.css';
+
 
 const User = props => {
 
     return <>
-        <div>
+        <div className={styles.user}>
             {`${props.name} (${props.age} years old)`}
         </div>
     </>

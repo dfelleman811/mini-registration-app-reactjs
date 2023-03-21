@@ -1,0 +1,18 @@
+.new-user {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 50rem;
+    text-align: center;
+    max-width: 95%;
+}
+
+.new-user button {
+    background-color: gold;
+    border: 1px solid goldenrod;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.new-user button:hover {
+    background-color: rgb(255, 237, 178);
+}

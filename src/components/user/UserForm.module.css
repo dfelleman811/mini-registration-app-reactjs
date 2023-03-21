@@ -1,0 +1,33 @@
+.new-user__controls {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    text-align: left;
+    gap: 1rem;
+}
+
+.new-user__control label {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.new-user__control input {
+    padding: 0.5rem;
+    width: 20rem;
+    border: 1px solid lightgray;
+    max-width: 100%;
+}
+
+/* .new-user__control.invalid {
+    
+} */
+
+.new-user__control.invalid label {
+    color: red;
+}
+
+.new-user__control.invalid input {
+    background-color: lightcoral;
+    border-color: red;
+}
